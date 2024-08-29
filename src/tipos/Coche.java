@@ -1,4 +1,4 @@
-package temp;
+package tipos;
 
 public class Coche {
 }
