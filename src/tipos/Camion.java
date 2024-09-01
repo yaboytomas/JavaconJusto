@@ -9,7 +9,7 @@ public class Camion extends Vehiculo {
     }
 
     @Override
-    public int calcCost() {
+    public int calcCost() {             // aca se modifica la funcion abstract ya que cada clase hija es differnte
         return getDistanciaKM() * 15;
     }
 }

@@ -11,6 +11,8 @@ public static void main(String[] args) {
     Vehiculo v3 = new Moto(1000);
 
     //Resultados
+    System.out.println();
+    System.out.println("Distancia a recorrer: 1000 km");
     System.out.println("Costo de enviarlo por camion es: $" + v1.calcCost());
     System.out.println("Costo de enviarlo por coche: $" + v2.calcCost());
     System.out.println("Costo de enviarlo por moto: $" + v3.calcCost());
