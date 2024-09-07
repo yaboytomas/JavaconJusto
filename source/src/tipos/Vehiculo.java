@@ -15,7 +15,7 @@ public abstract class Vehiculo {
         this.distanciaKM = distanciaKM;
     }
 
-    //Metodos
+    //Calular costo
     public abstract int calcCost();   // abtracto porque por cada clase hija cambie el calculo.
 
 
